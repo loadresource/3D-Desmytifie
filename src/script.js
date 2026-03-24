@@ -45,14 +45,14 @@ function project({x=0,y=0,z=0}) {
 }
 
 //convert normalized coordinates to screen coordinates
-function screen(p) {
+function screen(point) {
     //normalize coordinates
     //(p.x + 1)/2*game.width
     //(p.y + 1)/2*game.height
     return{
-        x: (p.x + 1)/2*game.width,
+        x: (point.x + 1)/2*game.width,
         //invert y axis
-        y: (1 - (p.y + 1)/2)*game.height
+        y: (1 - (point.y + 1)/2)*game.height
     }
 }
 
