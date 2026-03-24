@@ -10,4 +10,13 @@ This is a simple 3D model of a penger,`penger.js`, created using JavaScript and 
 
 is a simple projection of 3D points to 2D, and drawing them on the canvas. The vertices and faces of the model are defined in the `pangerVertices` and `pangerFaces` arrays, respectively. The `draw` function is called in a loop to continuously render the model on the canvas. The `clear` function is used to clear the canvas before each new frame is drawn. The `point` function is used to draw the vertices of the model, and the `line` function is used to draw the edges between the vertices. The `project` function is used to convert 3D points to 2D points, and the `screen` function is used to convert normalized coordinates to screen coordinates.
 
+# function `rotate_xz()`
+
+this functions rotate around y axis
+
+tscoding explain He gives a brief explanation of how to rotate the first object you've created. He also notes that if you want a more in-depth understanding, you can watch the following video [rotation matrix].
+
+
+
+[rotation matrix]: https://www.youtube.com/watch?v=EZufiIwwqFA
 [tscoding]: https://www.youtube.com/watch?v=qjWkNZ0SXfo
