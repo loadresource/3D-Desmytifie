@@ -1,15 +1,15 @@
-import  {vs as pangerVertices, fs as pangerFaces }from './penger.js'
-
+import  {vs as pangerVertices, fs as pangerFaces }from './modules/penger.js'
 
 const FOREGROUND = '#50FF50'
 const BACKGROUND = '#101010'
 const FPS = 60
 console.log(game);
 
-
+//set canvas size
 game.width = 800
 game.height = 800
 
+//get context 2d
 const ctx = game.getContext('2d')
 
 //clear screen
